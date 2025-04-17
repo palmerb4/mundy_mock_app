@@ -2,20 +2,9 @@
 
 ## Welcome and Purpose
 
-Sam is a mock **C++** application built on the *Mundy* framework, which we use as the template for all of our formal Mundy applications. If all you desire is to use Mundy within your library, simply 
+Sam is a mock **C++** application built on the *Mundy* framework, which we use as the template for all of our formal Mundy applications. If all you desire is to use Mundy within your library, simply use `find_package(Mundy)` and `target_link_libraries(some_exe Private Mundy::all_libs)`. But if you desire to build a formal application that depends on Mundy, this template helps streamline that process. We assume basic C++ knowledge (e.g. you've taken an introductory course) and introductory level **CMake** knowledge, with most things CMake-related handled for you or explained in full detail.
 
-
-It provides a minimal, working setup you can copy and build upon fo
-
-
-It serves as a starter template to help you get familiar with using Mundy in your own C++ applications. 
-
-
-
-
-If you have basic C++ knowledge (e.g. you've taken an introductory course) but are new to build systems like **CMake**, this project is designed for you.
-
-The purpose of "Sam" is to provide a simple, working setup that you can copy and modify. It includes a straightforward `main` program, a testing setup, and the necessary CMake configuration to work with the Mundy framework. By exploring this template, you'll learn how to structure a Mundy-based project, manage source files, write unit tests, and build everything with CMake in a way that meets formal standards.
+The purpose of "Sam" is to provide a standardized, working setup for our various applications. It includes a straightforward `main` program, a testing setup, and the necessary CMake configuration to work with the Mundy framework. By exploring this template, you'll learn how to structure a CMake-based project, manage source files, write unit tests, and build/install everything in a way that meets formal standards.
 
 ---
 ## Quick Start
