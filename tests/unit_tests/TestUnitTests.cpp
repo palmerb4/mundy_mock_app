@@ -1,7 +1,7 @@
 // @HEADER
 // **********************************************************************************************************************
 //
-//                                          Sam: A mock application for Mundy
+//                                          Sam: A Starter Application Using Mundy
 //                                             Copyright 2025 Bryce Palmer
 //
 // Sam is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License

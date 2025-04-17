@@ -1,7 +1,7 @@
 # @HEADER
 # **********************************************************************************************************************
 #
-# Sam: A mock application for Mundy
+# Sam: A Starter Application Using Mundy
 # Copyright 2025 Bryce Palmer
 #
 # Sam is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License
@@ -57,7 +57,6 @@ option(${PROJECT_NAME}_ENABLE_WERROR "Warnings are errors" ON)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED)
-
 
 ###############################################################################
 # EXE/LIBRARY
