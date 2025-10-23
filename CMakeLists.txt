@@ -167,6 +167,14 @@ if(${PROJECT_NAME}_ENABLE_UNIT_TESTS)
         "${googletest_SOURCE_DIR}/googletest/include")
 
     add_subdirectory(tests)
+
+    # Let GTest parse the executable for tests and register them with CTest
+    include(GoogleTest)            # CMake >= 3.10
+    gtest_discover_tests(${utest_ex_name}
+        WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
+        DISCOVERY_TIMEOUT 60
+        TEST_PREFIX "unit."
+    )
 endif()
 
 
